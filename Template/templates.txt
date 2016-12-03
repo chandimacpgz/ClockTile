@@ -1,0 +1,27 @@
+[
+	{
+		"name": "ClockTile",
+		"title": "Clock Tile",
+		"type": ["Small","Large","ExtraLarge"],
+		"description": "",
+		"parameters":[
+                {"name": "ClockType", "title": "Clock Type", "type": "select", "options": ["Analog", "Digital"], "default": "Analog", "target": "js", "isStatic": false},
+                {"name": "ClockTheme", "title": "Theme", "type": "select", "options": ["Black", "Red","Blue","Yellow","Purple","Custom"], "default": "Black", "target": "js", "isStatic": false},
+                {"name": "TileBackground", "title": "Tile Background", "type": "background", "default": "#0066b3", "target": "js", "isStatic": true},
+                {"name": "ClockBackground", "title": "Clock Background", "type": "background", "default": "#abcdef", "target": "js", "isStatic": true},
+                {"name": "NumbersColor", "title": "Color of Numbers", "type": "background", "default": "#000000", "target": "js", "isStatic": true},
+                {"name": "ClockRimOuter", "title": "Clock Rim Outer", "type": "background", "default": "#000000", "target": "js", "isStatic": true},
+                {"name": "ClockRimMiddle", "title": "Clock Rim Middle", "type": "background", "default": "#000000", "target": "js", "isStatic": true},
+                {"name": "ClockHands", "title": "Clock Hand Colors", "type": "background", "default": "#000000", "target": "js", "isStatic": true},
+                {"name": "ClockMode", "title": "Clock Mode", "type": "select", "options": ["AM PM", "24 hrs"], "default": "AM PM", "target": "js", "isStatic": false}
+        ],
+		"scripts": ["%PackageUrl%/ClockTemplate.js"],
+		"css": ["%PackageUrl%/ClockTemplate.css"],
+		"libraries": [],
+		"maximumItemsFromList": 1,
+		"class": "TileDataContext.Templates.ClockTemplate",
+		"html": "file:%PackageUrl%/tile.html",
+		"minimumSupportedVersion": "3.0",
+		"customDataAccess": true
+	}
+]

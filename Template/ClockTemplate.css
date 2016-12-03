@@ -1,0 +1,63 @@
+
+/*****************************************base styles***********************************/
+.metro-tile {
+	float: left;
+	height: auto;
+	width: auto;
+	color: #fff;
+	font-family: "Segoe UI", "DejaVu Sans", "Trebuchet MS", Verdana, sans-serif;
+	font-size: 15px;
+	/*margin-right: 10px;
+	margin-bottom: 10px;*/
+	position: relative;
+	box-shadow: 0 0 0 3px transparent;
+    overflow: hidden;
+}
+.items-wrap, .single-item {
+	float: left;
+	width: 100% !notdynamic;
+	height: 100% !notdynamic;
+}
+.single-item-anim {
+	transition-property: transform;
+	transition-duration: 500ms;
+	transition-timing-function: ease;
+	transform: translate(0%, -100%) translateZ(0px);
+}
+.cont-wrapper {
+	float: left;
+	padding: 10px;
+	overflow: hidden;
+	width: 100% !notdynamic;
+	box-sizing: border-box;
+}
+.cont-time {
+	float: left;
+	width: 100% !notdynamic;
+}
+
+.hltext {
+    font-weight: 600;
+}
+
+.medium-tile, .TileContainer {
+	height: 100% !notdynamic;
+	width: 100% !notdynamic;
+}
+.mt-cont {
+    float: left;
+    margin-bottom: 5px;
+    width: 60% !notdynamic;
+}
+.hlmtext {
+    font-size: 21px;
+}
+
+.clock-mode{
+    margin-right: 2%;
+    font-weight: 600;
+}
+
+.clock{
+    margin-left: 2%;
+}

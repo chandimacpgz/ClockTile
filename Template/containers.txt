@@ -1,0 +1,18 @@
+[
+	{
+		"name": "ClockContainer",
+		"type": "Small",
+		"parameters": 
+			[
+				{"name": "TileTitle", "title": "Tite Title", "type": "text", "default": "Clock", "target": "html", "isStatic": false}
+			],
+		"scripts": [],
+		"css": ["%PackageUrl%/ClockTemplate.css"],
+		"libraries": [],
+		"class": "TileDataContext.Templates.ClockTemplate",
+		"html": "file:%PackageUrl%/container.html",
+		"contentPresenter": ".items-wrap",
+		"childName": ".single-item",
+		"animationContainer": ".items-wrap"
+	}
+]
